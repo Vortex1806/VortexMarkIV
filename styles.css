@@ -1,14 +1,12 @@
 
-
-/* Style for the composer section */
 .bpw-composer {
-  padding: 0; /* Remove any padding */
-  position: relative; /* Set the position to relative */
-  outline: none; /* Remove any outline */
-  border: none; /* Remove any border */
+  padding: 0; 
+  position: relative; 
+  outline: none; 
+  border: none; 
 }
  
-/* Style for the composer inner section */
+
 .bpw-composer-inner {
   padding: 0; /* Remove any padding */
   line-height: 0; /* Remove any line-height */
@@ -115,7 +113,7 @@
   height: 24px; /* Set the button's height to be 24 pixels */
   color: transparent; /* Hide any text that might appear inside the button */
   cursor: pointer; /* Show the pointer cursor when the button is hovered over */
-  background-image: url(./button.png) !important; /* Add an image to the button */
+  background-image: url(https://img.freepik.com/free-vector/blue-curve-frame-template_53876-114605.jpg) !important; /* Add an image to the button */
   background-repeat: no-repeat !important; /* Don't repeat the image */
   background-position: center !important; /* Center the image inside the button */
   transition: background-color 0.2s; /* Make the button's background color change smoothly over a short period of time */
