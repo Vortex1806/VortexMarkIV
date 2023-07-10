@@ -9,16 +9,16 @@
 }
 
 .bpw-header-title {
-    color: white;
+    color: red;
 }
 
 .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
-    color: white;
+    color: blue;
     background-color: #007bff;
 }
 
 .bpw-header-icon:hover {
-    fill: white;
+    fill: yellow;
 }
 
 .bpw-header-container {
