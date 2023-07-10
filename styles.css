@@ -1,67 +1,65 @@
 .bpw-floating-button {
-    float: right;
-    fill: rgb(255, 255, 255);
-    cursor: pointer;
-    outline: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
-    width: 52px;
-    height: 52px;
-    cursor: pointer;
-    border-radius: 50%;
-    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.4);
-    overflow: hidden;
-    padding: 0;
-    border: none;
-    background-clip: padding-box;
-    transition: width 1s, height 1s;
+  float: right;
+  fill: rgb(255, 255, 255);
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  width: 52px;
+  height: 52px;
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  padding: 0;
+  border: none;
+  background-clip: padding-box;
+  transition: width 1s, height 1s;
 }
+
 .bpw-floating-button .bpw-floating-button-unread {
-    display: block;
-    position: absolute;
-    right: 2px;
-    bottom: 54px;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    line-height: 20px;
-    color: #fff;
-    background-color: #ff5d5d;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4);
+  display: block;
+  position: absolute;
+  right: 2px;
+  bottom: 54px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  line-height: 20px;
+  color: #fff;
+  background-color: #ff5d5d;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4);
 }
 
 .bpw-header-icon {
-
   border: none;
   background: none;
   padding: 0;
   margin: 0;
-  color: var(--shark);
+  color: blue;
   line-height: 0;
-  margin-left: var(--spacing-large);
+  margin-left: 20px; /* Change to your desired value */
   text-align: right;
   vertical-align: middle;
   cursor: pointer;
-  fill: var(--shark);
+  fill: red;
   width: 16px;
   height: 16px;
   transition: fill 0.3s;
 }
- 
 
 .bpw-header-icon svg,
 .bpw-header-icon svg path {
-  fill: var(--shark);
+  fill: blue;
   transition: fill 0.3s;
 }
- 
 
 .bpw-header-icon:hover,
 .bpw-header-icon:hover svg,
 .bpw-header-icon:hover svg path {
-  fill: var(--reef);
+  fill: yellow;
 }
 
 .bpw-header-title-flexbox {
@@ -92,7 +90,7 @@
 .bpw-header-name {
   font-weight: 500;
   font-size: 14px;
-  color: var(--zinc-600);
+  color: red;
 }
 
 .bpw-header-subtitle {
@@ -101,7 +99,7 @@
   text-overflow: ellipsis;
   font-weight: 300;
   font-size: 12px;
-  color: var(--zinc-400);
+  color: pink;
 }
 
 .bpw-header-unread {
@@ -118,12 +116,13 @@
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
+
 .bpw-header-container {
-    border-radius: var(--spacing-large);
-    background: var(--white);
-    border: 1px solid var(--zinc-200);
-    border-radius: var(--spacing-medium);
-    padding: var(--spacing-large) var(--spacing-x-large);
+  border-radius: 20px; /* Change to your desired value */
+  background: #ffffff; /* Change to your desired value */
+  border: 1px solid black; /* Change to your desired value */
+  border-radius: 15px; /* Change to your desired value */
+  padding: 20px; /* Change to your desired value */
 }
 
 .bpw-composer {
@@ -148,22 +147,22 @@
 }
 
 .bpw-composer textarea {
-  background: var(--white);
-  border: 1px solid var(--zinc-200);
-  border-radius: var(--spacing-medium);
-  color: var(--zinc-900);
+  background: #ffffff; /* Change to your desired value */
+  border: 1px solid black; /* Change to your desired value */
+  border-radius: 15px; /* Change to your desired value */
+  color: #000000; /* Change to your desired value */
   font-family: inherit;
   font-size: 12px;
   height: 54px;
-  padding: 19px var(--spacing-large) var(--spacing-large);
+  padding: 20px; /* Change to your desired value */
   resize: none;
   transition: border 0.2s;
   width: 100%;
-  margin-right: var(--spacing-small);
+  margin-right: 10px; /* Change to your desired value */
 }
 
 .bpw-composer textarea:focus {
-  border-color: var(--zinc-300);
+  border-color: #888888; /* Change to your desired value */
 }
 
 .bpw-composer.rtl .bpw-composer-inner textarea {
@@ -181,22 +180,18 @@
 .bpw-send-button:disabled,
 .bpw-send-button:disabled:hover {
   opacity: 0.4;
-  background-color: var(--theme-primary);
+  background-color: #888888; /* Change to your desired value */
   cursor: default;
 }
 
 .bpw-send-buttons {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-}
+  flex-direction: row
 
 .bpw-send-button {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: var(--spacing-medium);
-  background-color: var(--theme-primary);
   padding: 20px;
   width: 24px;
   height: 24px;
@@ -209,7 +204,7 @@
 }
 
 .bpw-send-button:not(:disabled):hover {
-  background-color: var(--theme-primary-hover);
+  background-color: blue;
 }
 
 .bpw-voice-recorder {
